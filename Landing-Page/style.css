@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.main-section {
+    margin-top: 30px;
+    background: url(bg.jpg);
+    height: auto;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-logo img {
+    height: 125px;
+    margin-right: -50px;
+    
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.navbar {
+    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.nav-link {
+    list-style-type: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-link li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+.menu img {
+    border: 1px solid rgb(253, 108, 51);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.menu p {
+    color: black;
+
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+
+
+.menufont {
+    font-family: 'Lora', serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: #000;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.body {
+    background-color: #ffc78881;
+
+}
+
+.menu img:hover {
+    box-shadow: 5px 5px 10px rgba(253, 108, 51, 0.678);
+}
+
+.topfont {
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: #ffc78881;
+    text-transform: uppercase;
+    margin-left: 20px;
+    text-decoration: none;
+    text-decoration: none;
+    margin-top: 10vh;
+}
+
+.todayoffer {
+    color: rgba(255, 255, 255, 0.705);
+}
+
